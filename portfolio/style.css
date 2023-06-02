@@ -1,0 +1,156 @@
+body {
+    max-width: 1080px;
+    margin: auto;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.pages a {
+    font-size: 18px;
+    justify-self: end;
+    padding-left: 15px;
+    color: #F9FAF8;
+}
+
+.main {
+    margin-top: 75px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .main_text {
+    margin-right: 50px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main_button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+.extra_info {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: white;
+    box-shadow: 0 0 0 100vmax white;
+    clip-path: inset(0 -100vmax);
+}
+
+.extra_info_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-bottom: 25px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.illustrations img {
+    border-radius: 8px;
+}
+
+.illustrations p {
+    margin-top: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.inspiring_quote {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+    background-color: #E5E7EB;
+    box-shadow: 0 0 0 100vmax #E5E7EB;
+    clip-path: inset(0 -100vmax);
+}
+
+.inspiring_quote .quote{
+    width: 700px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+    width: 800px;
+}
+
+.inspiring_quote .quote_author{
+    width: 700px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 0 100vmax white;
+    clip-path: inset(0 -100vmax);
+    padding: 50px 0px 50px 0px;
+}
+
+.call_to_action_div {
+    border-radius: 8px;
+    display: flex;
+    width: 900px;
+    margin: 50px 0px 50px 0px;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+}
+
+.call_to_action_div h2, p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.call_to_action_text {
+    margin: 50px 50px 50px 50px;
+}
+
+.call_to_action_button {
+    display: flex;
+    align-items: center;
+}
+
+.call_to_action_button button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    color: #E5E7EB;
+}
