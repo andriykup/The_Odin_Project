@@ -1,0 +1,15 @@
+.imageRPS{
+    display: flex;
+    justify-content: center;
+}
+
+.imageRPS img{
+    width: 200px;
+    padding: 50px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
