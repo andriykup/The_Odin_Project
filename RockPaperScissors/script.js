@@ -49,7 +49,6 @@ rock.addEventListener("click", () =>{
     playerSelection = "rock";
     const computerSelection = getComputerChoice();
     let winner = playRound(playerSelection, computerSelection);
-    console.log("Player:" + playerSelection + "\nComputer: " + computerSelection + "\nwinner: " + winner);
 
     if(winner == "computer"){
         computerScore++;
@@ -68,7 +67,6 @@ paper.addEventListener("click", () =>{
     playerSelection = "paper";
     const computerSelection = getComputerChoice();
     let winner = playRound(playerSelection, computerSelection);
-    console.log("Player:" + playerSelection + "\nComputer: " + computerSelection + "\nwinner: " + winner);
 
     if(winner == "computer"){
         computerScore++;
@@ -87,7 +85,6 @@ scissors.addEventListener("click", () =>{
     playerSelection = "scissors";
     const computerSelection = getComputerChoice();
     let winner = playRound(playerSelection, computerSelection);
-    console.log("Player:" + playerSelection + "\nComputer: " + computerSelection + "\nwinner: " + winner);
 
     if(winner == "computer"){
         computerScore++;
