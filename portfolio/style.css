@@ -1,6 +1,7 @@
 body {
-    max-width: 1080px;
-    margin: auto;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1200px;
     background-color: #1f2937;
     font-size: 18px;
 }
@@ -90,19 +91,21 @@ body {
 }
 
 .inspiring_quote .quote{
-    width: 700px;
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
     color: #1f2937;
-    width: 800px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .inspiring_quote .quote_author{
-    width: 700px;
+    padding-top: 20px;
     text-align: end;
     font-weight: bold;
     font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .call_to_action {
