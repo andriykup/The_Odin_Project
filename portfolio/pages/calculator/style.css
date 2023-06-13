@@ -1,0 +1,13 @@
+#display{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    justify-content: center;
+}
+
+.number, .operator, #clearButton{
+    height: 50px;
+    width: 50px;
+}
