@@ -34,16 +34,15 @@ operators.forEach((btn) => {
 })
 
 function operatorClicked(e){
-    console.log(e.srcElement.id); //test
     display.innerText = e.srcElement.id;
-    operator = e.srcElement.id;}
+    operator = e.srcElement.id;
+}
 
 number.forEach((btn) => {
     btn.addEventListener("click", numberClicked);
 })
 
 function numberClicked(e){
-    console.log(e.srcElement.id); //test
     display.innerText = e.srcElement.id;
     if(operator == undefined){
         n1 = e.srcElement.id;

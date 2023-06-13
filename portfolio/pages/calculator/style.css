@@ -1,15 +1,25 @@
-.calculator{
-    width: 500px;
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
 }
 
+#homePage{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
 
 #display{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 50px;
     background-color: rgb(42, 41, 41);
     color: white;
-    justify-content: center;
 }
 
 .center{

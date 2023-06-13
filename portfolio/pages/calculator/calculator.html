@@ -7,7 +7,9 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div class="calculator">
+    <a href="../../index.html" title="take to home page" id="homePage">Home</a>
+    <div>
+        <div class="calculator">
         <div id="display">
             <p></p>
         </div>
@@ -29,13 +31,15 @@
                 <button class="operator" id="*">*</button>
             </div>
         </div>
+        <div id="zeroEqualDivision">
+            <button class="number" id="0" >0</button>
+            <button class="equal" id="=">=</button>
+            <button class="operator" id="/">/</button>
+        </div>
+        <button id="clearButton">AC</button>
+        </div>
+        <p>**not able to string together several operations and get the right answer yet**</p>
     </div>
-    <div id="zeroEqualDivision">
-        <button class="number" id="0" >0</button>
-        <button class="equal" id="=">=</button>
-        <button class="operator" id="/">/</button>
-    </div>
-    <button id="clearButton">Reset</button>
     <script src="./script.js"></script>
 </body>
 </html>
