@@ -1,11 +1,11 @@
-let n1 = 3;
-let n2 = 2;
+let n1 = null;
+let n2 = null;
 let operator;
 
 function operate(n1, n2, operator){
     switch(operator){
         case "+":
-            return n1 + n2;
+            return Number(n1) + Number(n2);
         case "-":
             return n1 - n2;
         case "*":
@@ -21,7 +21,7 @@ const display = document.getElementById("display");
 const number = document.querySelectorAll(".number");
 const operators = document.querySelectorAll(".operator");
 const equal = document.querySelector(".equal").addEventListener("click", operatorEqual);
-const clearButton = document.getElementById("clearButton");
+const clearButton = document.getElementById("clearButton").addEventListener("click", resetData);
 
 function operatorEqual(e){
     console.log(e.srcElement.id);
@@ -45,5 +45,16 @@ number.forEach((btn) => {
 function numberClicked(e){
     console.log(e.srcElement.id); //test
     display.innerText = e.srcElement.id;
-    n1 = e.srcElement.id;
+    if(operator == undefined){
+        n1 = e.srcElement.id;
+    }else if(operator != undefined){
+        n2 = e.srcElement.id;
+    }
+}
+
+function resetData(){
+    n1 = null;
+    n2 = null;
+    operator = undefined;
+    display.innerText = "";
 }
