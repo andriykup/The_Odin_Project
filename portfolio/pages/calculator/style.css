@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.number, .operator, #clearButton{
+.number, .operator, .equal, #clearButton{
     height: 50px;
     width: 50px;
 }
