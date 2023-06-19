@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-image: url(./img/leaf.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#logoSection{
+    height: 100vh;
+    width: 600px;
+}
+
+#logo {
+    margin-top: 15rem;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;   
+}
+
+#logo img{
+    margin-right: 10px;
+}
+
+#logo p{
+    font-size: 100px;
+    font-family: Norse-Bold;
+    width: 200px;
+}
+
+#rightSide {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 600px;
+    height: 100vh;
+    background-color: rgb(244, 244, 244);
+}
+
+#accCreationDesctiption {
+    margin: 4rem 5rem 4rem 4rem;
+    font-size: 1.8rem;
+}
+
+#userFormSection {
+    background-color: white;
+    padding: 4rem;
+    box-shadow: 0px 2px 30px 5px rgb(0, 0, 0, 0.2);
+}
+
+#userForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#userForm div {
+    display: grid;
+    margin-bottom: 15px;
+}
+
+#userForm div input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border-width: thin;
+    border-color: rgb(196, 196, 196);
+}
+
+
+#createAccButton {
+    background-color: #596D48;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+#createAccButton:hover{
+    background-color: #6b8c4f;
+    cursor: pointer;
+}
+
+#confirmationSection p {
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#confirmationSection a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+#confirmationSection a:hover {
+    font-weight: bold;
+}
+
+#confirmationSection a:visited {
+    color: #596D48;
+}
