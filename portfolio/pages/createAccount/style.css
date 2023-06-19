@@ -93,7 +93,7 @@ body {
     cursor: pointer;
 }
 
-#confirmationSection p {
+#confirmationSection p{
     margin-top: 2rem;
     margin-left: 4rem;
 }
@@ -109,4 +109,8 @@ body {
 
 #confirmationSection a:visited {
     color: #596D48;
+}
+
+#homeLink {
+    margin-left: 4rem;
 }
